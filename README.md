@@ -39,7 +39,7 @@ Start
 └── FE
     └── xxx
 └── AI
-    └── chatbot.py  # 사용자 입력 받기용 챗봇 코드입니다.
+    └── xxx
 </code>
 </pre>
 
