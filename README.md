@@ -28,8 +28,14 @@ AI 추천 시스템: PyTorch + pandas (콘텐츠기반필터링)
 <code>
 Start
 ├── BE
-│   └── festival.py  # 지역 기반 행사 정보 제공 코드입니다.
-│   └── local_market.py  # 로컬 특산물 등록 및 구매/판매 코드입니다.
+│   └── 📁travel_recommendation/ 
+|   |    └── travel_gpt.py  # 프롬프트 가공 후 OpenAI API 호출 → GPT에게 추천 정보 받아와 출력
+│   |    └── attraction.py  # 사용자의 여행 목적과 지역을 입력받아 해당 지역 내의 키워드 관련 관광지 정보 제공
+│   └── 📁festival_recommendation/ 
+|   |    └── festival_tourAPI.py  # 위도/경도 입력 기반으로 반경 15km 내 축제 정보 제공 (TourAPI 활용)
+│   |    └── festival_RAG.py  # GPT + RAG 기반으로 입력 키워드를 의미 확장 후 관련 축제 정보 출력
+│   └── 📁local_market/ 
+|   |    └── local_market_DEMO.py  # 당근마켓 형태로 지역 특산물 판매자와 구매자 연결 (로컬 마켓 기능 구현)
 └── FE
     └── xxx
 └── AI
