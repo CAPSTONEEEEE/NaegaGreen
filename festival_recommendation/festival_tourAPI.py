@@ -7,7 +7,7 @@ import mysql.connector
 conn = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='ekgP0423@',   
+    password='MyPassword',   
     database='tour_db'
 )
 cursor = conn.cursor()
@@ -92,7 +92,7 @@ def fetch_festivals_from_mysql():
     conn = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='ekgP0423@', 
+        password='MyPassword', 
         database='tour_db'
     )
     cursor = conn.cursor(dictionary=True)  # 딕셔너리 모드로 가져오기
