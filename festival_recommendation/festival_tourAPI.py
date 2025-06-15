@@ -13,7 +13,7 @@ conn = mysql.connector.connect(
 cursor = conn.cursor()
 
 # ✅ TourAPI 설정
-servicekey = ''    # <-- 여기에 TourAPI 키 입력 !!!
+servicekey = ''    # ⚠️ 본인의 TourAPI 키로 교체하세요!
 url = 'http://apis.data.go.kr/B551011/KorService2/searchFestival2'
 
 page = 1
