@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 # ✅ OpenAI 키 설정
-openai.api_key = ""  # 여기에 본인의 API 키 입력
+openai.api_key = ""    # ⚠️ 본인의 OpenAI 키로 교체하세요!
 
 # ✅ GPT로 연관 키워드 확장
 def get_related_keywords(keyword):
@@ -39,7 +39,7 @@ def generate_overview(title):
 # ✅ 관광지 검색 함수 (지역 + 키워드 포함 조건)
 def search_places(keywords, region, max_results=10):
     url = "http://apis.data.go.kr/B551011/KorService2/searchKeyword2"
-    servicekey = 'ILgc5Ptzlb9mvXO42jF2hHGHNFwLKB77Fmxz8P79ogO7jdZw4su3pG8faMK+B91LNSFgB6wfsUYjqH5TecGX0A=='
+    servicekey = ''    # ⚠️ 본인의 TourAPI 키로 교체하세요!
     
     collected = []
     for keyword in keywords:
