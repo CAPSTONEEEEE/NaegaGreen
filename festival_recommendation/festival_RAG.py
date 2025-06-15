@@ -9,7 +9,7 @@ from pandas import json_normalize
 from openai import OpenAI
 
 # ✅ 2. OpenAI 클라이언트 생성 (GPT 호출용)
-client = OpenAI(api_key="")  # ⚠️ 본인의 키로 교체하세요!
+client = OpenAI(api_key="")    # ⚠️ 본인의 OpenAI 키로 교체하세요!
 
 # ✅ 3. SQLite 연결 및 테이블 생성
 conn = sqlite3.connect("festivals.db")
@@ -29,7 +29,7 @@ conn.commit()
 
 # ✅ 4. TourAPI에서 축제 데이터 수집
 def fetch_and_store_festivals():
-    servicekey = '' # 여기에 키 발급받아 입력!!
+    servicekey = ''    # ⚠️ 본인의 TourAPI 키로 교체하세요!
     url = 'http://apis.data.go.kr/B551011/KorService2/searchFestival2'
 
     page = 1
