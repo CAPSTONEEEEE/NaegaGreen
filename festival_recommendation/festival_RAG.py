@@ -29,7 +29,7 @@ conn.commit()
 
 # ✅ 4. TourAPI에서 축제 데이터 수집
 def fetch_and_store_festivals():
-    servicekey = 'sNi2tlEh0+B9o0hig8eIQmwPR+tcLeZ46hmkrPWWk2vXNhWFvSpDizqGZy1CtB1tRV4Krz53LU3OHgKvtyihHg=='
+    servicekey = '' # 여기에 키 발급받아 입력!!
     url = 'http://apis.data.go.kr/B551011/KorService2/searchFestival2'
 
     page = 1
