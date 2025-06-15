@@ -6,7 +6,7 @@ from IPython.display import display
 from datetime import datetime
 
 # ✅ OpenAI API 설정
-client = openai.OpenAI(api_key="")  # <-- 여기에 본인의 OpenAI API 키를 입력하세요.
+client = openai.OpenAI(api_key="")    # ⚠️ 본인의 OpenAI 키로 교체하세요!
 
 # ✅ 날짜 → 계절 변환 함수
 def date_to_season(date_obj):
