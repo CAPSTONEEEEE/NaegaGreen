@@ -63,6 +63,11 @@ GeoLocation과 Haversine 공식을 활용하여 사용자 현 위치 기준 반�
 
 <br>
 
+## 🎥 데모 시연 영상
+
+[![데모 영상 보러가기](https://youtu.be/JHI0qQSHK5Q)]
+<br>
+
 ## 📁 문서 구조 (Documents)
 프로젝트 진행 과정에서 산출된 모든 문서는 본 레포지토리에서 관리됩니다.
 
@@ -72,8 +77,7 @@ NaegaGreen
 ├── 📁 Final_Submission/      # [최종] 캡스톤 최종 산출물 모음
 │    ├── Project_Poster.pdf   # 📄 프로젝트 전시용 포스터
 │    ├── Final_Report.pdf     # 📕 최종 결과 보고서
-│    ├── Presentation.pdf     # 🖥 최종 발표 자료 (PPT)
-│    └── Demo_Video.mp4       # 🎬 서비스 시연 영상
+│    └── Presentation.pdf     # 🖥 최종 발표 자료 (PPT)
 │
 ├── 📁 1차보고서/              # [기획] 프로젝트 제안 및 기획 단계
 │    ├── 12-내가그린-1차보고서.md
