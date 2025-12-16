@@ -64,8 +64,8 @@ GeoLocation과 Haversine 공식을 활용하여 사용자 현 위치 기준 반�
 <br>
 
 ## 🎥 데모 시연 영상
+[![데모 영상 보러가기](https://img.youtube.com/vi/JHI0qQSHK5Q/0.jpg)](https://youtu.be/JHI0qQSHK5Q)
 
-[![데모 영상 보러가기](https://youtu.be/JHI0qQSHK5Q)]
 <br>
 
 ## 📁 문서 구조 (Documents)
